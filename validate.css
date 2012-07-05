@@ -1,0 +1,33 @@
+input, select {
+
+    line-height: normal;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    font-family: sans-serif;
+	max-height: 15px;
+	
+}
+
+.tooltip {
+			
+	position: absolute;
+	z-index: 9999;
+	color: red;
+	display: none;
+	font-size: 0.8em;
+	padding: 5px;
+	font-family: 'Arimo', sans-serif;
+	background: transparent;
+	min-width: 30px;
+	min-height: 15px;
+	width: auto;
+	height: auto;
+				
+}
+
+.button[disabled] {
+
+	background: #CCC;
+
+}
